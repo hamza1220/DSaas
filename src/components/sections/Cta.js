@@ -52,7 +52,7 @@ const Cta = ({
               For any queries you may have or to discuss how we can help you{" "}
             </p>
           </div>
-          <form name="contact" method="POST" data-netlify="true">
+          <form name="contact" netlify>
             <div className="cta-action">
               <Input
                 id="newsletter"
